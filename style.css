@@ -15,6 +15,10 @@ img {
 h5 {
     font-size: 1rem;
 }
+/*hidden page1*/
+.hidden {
+    display: none !important;
+}   
 /*page 2*/
 .judul {
     font-size: 1.5rem;

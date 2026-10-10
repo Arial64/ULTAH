@@ -1,5 +1,5 @@
 body {
-    margin: 3vw;
+    margin: 4vw;
     height: auto;
     display: flex;
     align-items: center;
@@ -22,4 +22,7 @@ h5 {
 /*page 2*/
 .judul {
     font-size: 1.5rem;
+}
+p {
+    font-size: 0.93rem;
 }

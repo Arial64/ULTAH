@@ -1,13 +1,15 @@
 body {
-    margin: 4vw;
-    height: auto;
+    margin: 0;
+    padding: 4vw;
+    box-sizing: border-box;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 75vh;
     font-family: "Playpen Sans", cursive;
 }
+
 /*page 1*/
 img {
     max-width: 12rem;
@@ -15,14 +17,52 @@ img {
 h5 {
     font-size: 1rem;
 }
+
 /*hidden page1*/
 .hidden {
     display: none !important;
-}   
+}
+
 /*page 2*/
+#page2 {
+    width: 100%;
+    padding: 2rem 0;
+}
 .judul {
     font-size: 1.5rem;
 }
 p {
     font-size: 0.93rem;
+}
+
+/*foto*/
+.abadi {
+    margin-top: 1.5rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#tombolFoto {
+    font-family: "Playpen Sans", cursive;
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #f4a6b8;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+}
+.hasil-foto {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+.hasil-foto img {
+    display: block;
+    width: 12rem;
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+    object-fit: cover;
 }

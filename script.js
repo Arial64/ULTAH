@@ -10,8 +10,8 @@ const tombolFoto = document.getElementById('tombolFoto');
 const hasilFoto = document.getElementById('hasilFoto');
 const statusFoto = document.getElementById('statusFoto');
 
-audioLagu1.muted = false;
-audioLagu1.volume = 1;
+/*audioLagu1.muted = false;
+audioLagu1.volume = 1;*/
 
 function startMusic() {
     audioLagu1.muted = false;
